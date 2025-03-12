@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibrarySofttek.Dto\LibrarySofttek.DTOs.csproj" />
+    <ProjectReference Include="..\LibrarySofttek.Middlewares\LibrarySofttek.Middlewares.csproj" />
+    <ProjectReference Include="..\LibrarySofttek.Repository\LibrarySofttek.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

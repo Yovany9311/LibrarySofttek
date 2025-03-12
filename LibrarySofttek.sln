@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrarySofttek", "LibrarySofttek\LibrarySofttek.csproj", "{2CD93C2F-334A-40AF-AF17-963D374B7F4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibrarySofttek.Domain", "LibrarySofttek.Domain", "{BBC03512-7A23-4514-8001-2F6084FCFD22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrarySofttek.Domain", "LibrarySofttek.Domain\LibrarySofttek.Domain.csproj", "{2B846312-F3D3-4233-9D5E-1D2DAAFD7C81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibrarySofttek.DTOs", "LibrarySofttek.DTOs", "{5EFD58DB-5E8C-440E-884F-27DAC97E0987}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrarySofttek.DTOs", "LibrarySofttek.Dto\LibrarySofttek.DTOs.csproj", "{2D4BA97B-8557-4F10-960A-48D2AE2138A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibrarySofttek.Service", "LibrarySofttek.Service", "{B89965DF-9659-4966-86F3-63A6E89AC7FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrarySofttek.Service", "LibrarySofttek.Service\LibrarySofttek.Service.csproj", "{0CD0D181-5711-46F7-A6BF-F60CDC2B1633}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibrarySofttek.Repository", "LibrarySofttek.Repository", "{AD3F1AFE-F66F-419B-AEB4-BBB1F826660E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrarySofttek.Repository", "LibrarySofttek.Repository\LibrarySofttek.Repository.csproj", "{164C68F2-0A8D-4BA8-8A8B-A87D73BFED0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibrarySofttek.Web", "LibrarySofttek.Web", "{E7C622DA-878E-4B6D-8F27-F1A11774689D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibrarySofttek.Middlewares", "LibrarySofttek.Middlewares", "{72E822AC-4933-4E5B-8E07-0496E036CDD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrarySofttek.Middlewares", "LibrarySofttek.Middlewares\LibrarySofttek.Middlewares.csproj", "{865959FF-310C-49EF-94D9-79E484F16C20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CD93C2F-334A-40AF-AF17-963D374B7F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD93C2F-334A-40AF-AF17-963D374B7F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD93C2F-334A-40AF-AF17-963D374B7F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD93C2F-334A-40AF-AF17-963D374B7F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B846312-F3D3-4233-9D5E-1D2DAAFD7C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B846312-F3D3-4233-9D5E-1D2DAAFD7C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B846312-F3D3-4233-9D5E-1D2DAAFD7C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B846312-F3D3-4233-9D5E-1D2DAAFD7C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D4BA97B-8557-4F10-960A-48D2AE2138A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4BA97B-8557-4F10-960A-48D2AE2138A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4BA97B-8557-4F10-960A-48D2AE2138A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4BA97B-8557-4F10-960A-48D2AE2138A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD0D181-5711-46F7-A6BF-F60CDC2B1633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD0D181-5711-46F7-A6BF-F60CDC2B1633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD0D181-5711-46F7-A6BF-F60CDC2B1633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD0D181-5711-46F7-A6BF-F60CDC2B1633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164C68F2-0A8D-4BA8-8A8B-A87D73BFED0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164C68F2-0A8D-4BA8-8A8B-A87D73BFED0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164C68F2-0A8D-4BA8-8A8B-A87D73BFED0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164C68F2-0A8D-4BA8-8A8B-A87D73BFED0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865959FF-310C-49EF-94D9-79E484F16C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865959FF-310C-49EF-94D9-79E484F16C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865959FF-310C-49EF-94D9-79E484F16C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865959FF-310C-49EF-94D9-79E484F16C20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CD93C2F-334A-40AF-AF17-963D374B7F4D} = {E7C622DA-878E-4B6D-8F27-F1A11774689D}
+		{2B846312-F3D3-4233-9D5E-1D2DAAFD7C81} = {BBC03512-7A23-4514-8001-2F6084FCFD22}
+		{2D4BA97B-8557-4F10-960A-48D2AE2138A3} = {5EFD58DB-5E8C-440E-884F-27DAC97E0987}
+		{0CD0D181-5711-46F7-A6BF-F60CDC2B1633} = {B89965DF-9659-4966-86F3-63A6E89AC7FE}
+		{164C68F2-0A8D-4BA8-8A8B-A87D73BFED0B} = {AD3F1AFE-F66F-419B-AEB4-BBB1F826660E}
+		{865959FF-310C-49EF-94D9-79E484F16C20} = {72E822AC-4933-4E5B-8E07-0496E036CDD5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFF78E9B-6F0D-42A9-BE1D-0B2054767C58}
+	EndGlobalSection
+EndGlobal
